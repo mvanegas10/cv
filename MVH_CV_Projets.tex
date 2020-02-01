@@ -1,0 +1,106 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[francais]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation{francais}{identification oriented processing manufacturing} % Add words between the {} to avoid them to be cut 
+
+\exhyphenpenalty=10000
+\hyphenpenalty=10000
+
+\begin{document}
+
+
+\header{Meili }{Vanegas-Hernandez}           % Your name
+\lastupdated
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\vspace{5cm}
+\section{\textcolor{aquamarine}{bases de données}}\\
+\vspace{0.2cm}
+{[SQL]}\\
+{PostgreSQL, MySQL,\\
+\vspace{0.1cm}
+Oracle, Access}\\
+\vspace{0.5cm}
+{[NoSQL]}\\
+{MongoDB, Dynamo}\\
+%
+\vspace{5cm}
+\section{\textcolor{aquamarine}{bibliothèques \& frameworks}}\\
+\vspace{0.2cm}
+{NodeJS, Django\\
+\vspace{0.1cm}
+Jupyter Notebooks,\\
+\vspace{0.1cm}
+D3.js, ReactJS\\
+\vspace{0.1cm}
+AngularJS, Flask\\
+\vspace{0.1cm}
+Tableau, AWS, Azure}\\
+%
+\end{aside}
+\section{projets intéressants}
+{\vspace{0.5cm}}
+\begin{entrylist}
+
+\entry
+{2019}
+{Modèle de Transport El Salvador}
+{Banque Interaméricaine de Développement (BID)}
+{\bodyfontit{Steer, Bogota, Colombie}\\
+\normalfont{L'objectif de ce projet était de développer un le modèle de transport public et privé pour la zone métropolitaine de San Salvador (AMSS) sur la base des informations provenant des enregistrements des téléphones portables (Call Detail Record - CDR). Les matrices de voyage origine-destination ont été obtenues à l'aide d'outils Big Data et ont été caractérisées par des enquêtes auprès des utilisateurs de technologies mobiles.}\\
+\normalfont{J'ai travaillé avec l'équipe de comparaison des résultats modélisés et observés. De même, j'ai développé MAVI, un outil interactif de visualisation des matrices origine-destination qui permettait d'identifier les valeurs aberrantes.}
+{\vspace{0.6cm}}
+}
+%------------------------------------------------
+\entry
+{2019}
+{Enquête de Mobilité à Bogota}
+{Secrétariat de Mobilité du District}
+{\bodyfontit{Steer, Bogota, Colombie}\\
+\normalfont{L'enquête sur la mobilité des ménages 2019 a été un projet fait pour Bogota et les municipalités voisines dans sa zone d'influence. En outre, le projet a consisté à mettre à jour du modèle de transport à quatre étapes sur la zone d'étude. }\\
+\normalfont{J'ai travaillé dans l'équipe de développement d'indicateurs à partir des enquêtes. J'ai été la responsable de générer et visualiser des indicateurs socio-économiques et de mobilité.}\\
+{\vspace{0.2cm}}
+}
+%------------------------------------------------
+\entry
+{2018}
+{BioCicle}
+{BCEM Uniandes}
+{\bodyfontit{TUK, Kaiserslautern, Allemagne}\\
+\normalfont{L'application web BioCicle est le résultat de ma thèse de master. Sa fonction est de résumer et comparer des rapports taxonomiques uniques et multiples à partir de comparaisons de séquences biologiques. Cette application a été développée en collaboration avec un groupe de bioinformaticiens dont le but était de réduire le temps d’analyse nécessaire pour comprendre les résultats de comparaisons de séquences d’ADN à partir des résultats du modèle statistique. Ces comparaisons produisent une grande quantité de résultats, d'où l'extraction d'informations utiles est difficile.}\\
+\normalfont{J'ai développé une application qui permet l'extraction des informations et résume les résultats les plus pertinents des comparaisons de séquences biologiques. Avec BioCicle, les biologistes peuvent lire les résultats des comparaisons de séquences plus rapidement.}\\
+{\vspace{0.2cm}}
+}
+%------------------------------------------------
+\entry
+{2017}
+{Système de Notation des Contribuables}
+{Département National de la Planification (DNP)}
+{\bodyfontit{Alianza Caoba, Bogota, Colombie}\\
+\normalfont{Le système de notation des contribuables a été un projet développé en collaboration avec le secrétaire des finances de la Colombie pour analyser les données fiscales, proposer et développer des idées innovantes pour identifier les inexactitudes inexacts par rapport aux impôts fonciers.}\\
+\normalfont{J'ai proposé une architecture modulaire et construit une visualisation qui a permis une détection facile des valeurs aberrantes dans les cadres des contribuables incertains.}\\
+{\vspace{0.2cm}}
+}
+%------------------------------------------------
+\entry
+{2017}
+{Modèle de Simulation Urbaine des Ménagers}
+{TOMSA}
+{\bodyfontit{Laboratoire ESPACE, Nice, France}\\
+\normalfont{Le projet TOMSA était dirigé par un groupe d'analystes spatiaux de l'Université Sophia Antipolis. Leur principale motivation était de proposer des décisions d'urbanisme basées sur des données. Dans le cadre du projet et en collaboration avec le Laboratoire I3S, nous avons développé une plateforme d'aide à la prise de décision urbaine qui permettait à l'utilisateur d'interagir avec une simulation des déménagements des habitants sur la ville. Cette simulation était basée sur un modèle urbain multi-agents sous un scénario spatial et possibiliste.}\\
+{\vspace{0.2cm}}
+}
+\end{entrylist}
+
+\end{document}
+

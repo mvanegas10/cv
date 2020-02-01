@@ -1,0 +1,107 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[english]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation{english}{identification oriented processing manufacturing} % Add words between the {} to avoid them to be cut 
+
+\exhyphenpenalty=10000
+\hyphenpenalty=10000
+
+\begin{document}
+
+
+\header{Meili }{Vanegas-Hernandez}           % Your name
+\lastupdated
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\vspace{5cm}
+\section{\textcolor{aquamarine}{databases}}\\
+\vspace{0.2cm}
+{[SQL]}\\
+{PostgreSQL, MySQL,\\
+\vspace{0.1cm}
+Oracle, Access}\\
+\vspace{0.5cm}
+{[NoSQL]}\\
+{MongoDB, Dynamo}\\
+%
+\vspace{5cm}
+\section{\textcolor{aquamarine}{libraries \& frameworks}}\\
+\vspace{0.2cm}
+{NodeJS, Django\\
+\vspace{0.1cm}
+Jupyter Notebooks,\\
+\vspace{0.1cm}
+D3.js, ReactJS\\
+\vspace{0.1cm}
+AngularJS, Flask\\
+\vspace{0.1cm}
+Tableau, AWS, Azure}\\
+%
+\end{aside}
+\section{relevant projects}
+{\vspace{0.5cm}}
+\begin{entrylist}
+
+
+\entry
+{2019}
+{Transport Model El Salvador}
+{Inter-American Development Bank}
+{\bodyfontit{Steer, Bogota, Colombia}\\
+\normalfont{This project consisted in supporting the creation of a transport model for the Metropolitan Area of San Salvador. The origin-destination matrix was built out from mobile records registered by a mobile provider at El Salvador. Multiple data sets were cleansed, crossed, visualised and analysed, including the origin-destination matrices for the zone.}\\
+\normalfont{As part of the validation group for vehicle counting data, I presented innovative techniques to automate certain validations. In addition, I developed MAVI, an interactive visualisation tool that visualized the origin-destination matrix, which enabled insight extraction and faster outlier detection.}
+{\vspace{0.6cm}}
+}
+%------------------------------------------------
+\entry
+{2019}
+{Bogota Mobility Survey}
+{District Mobility Secretariat at Bogota}
+{\bodyfontit{Steer, Bogota, Colombia}\\
+\normalfont{The household mobility survey 2019 was a project that included the origin-destination household and interceptional survey for Bogota and the neighbouring municipalities in its area of influence. In addition, the update for the four-stage transport model of the study area. }\\
+\normalfont{As the surveys were handwritten, the validation phase was crucial when gathering the data. In response to this challenge, I created an innovative and semi-automated validation system for interceptional surveys developed in Python which significantly decreased the amount of human-made validations.}\\
+{\vspace{0.2cm}}
+}
+%------------------------------------------------
+\entry
+{2018}
+{BioCicle}
+{BCEM Uniandes}
+{\bodyfontit{TUK, Kaiserslautern, Germany}\\
+\normalfont{BioCicle was the outcome of my master thesis. It is a web-based and open-source application that summarizes and compares single and multiple taxonomic reports out of biological sequence comparisons. This application was developed along with a group of bioinformaticians that were willing to decrease the analysis time required to understand DNA sequence comparisons out of statistical model’s results. This comparisons produce a myriad of results, from where extracting useful information is highly cost-intensive given the lack of tools providing an overview of the results.}\\
+\normalfont{To tackle this problem, I developed an application that allows insight-extraction and summarizes the most relevant results out of biological sequences comparisons. With BioCicle, biologists can now read sequence comparisons results for virus data in a fraction of the time they did before.}\\
+{\vspace{0.2cm}}
+}
+%------------------------------------------------
+\entry
+{2017}
+{Taxpayer Rating System}
+{National Planning Department Colombia}
+{\bodyfontit{Alianza Caoba, Bogota, Colombia}\\
+\normalfont{The Taxpayer Rating System was a project developed along with the Secretary of Finance in Colombia to analyse tax data, propose and develop innovative ideas to identify inaccurate taxpayers in real property taxes.}\\
+\normalfont{During the development process, I proposed a modular-based architecture that decreased development time in fifty percent. In addition, I built a visualization that enabled easy outlier detection in dubious taxpayers.}\\
+{\vspace{0.2cm}}
+}
+%------------------------------------------------
+\entry
+{2017}
+{A new urban segregation-growth coupled model using a belief-desire-intention possibilistic framework}
+{TOMSA}
+{\bodyfontit{Laboratoire ESPACE, Nice, France}\\
+\normalfont{The TOMSA (Transport Oriented Modelling for Urban Densification Analysis) project was lead by a group of spatial analysts in the Université Sophia Antipolis. They were willing to enforce data-driven decision making in urbanism. Within the scope of the project and along with the Laboratoire I3S, we developed an urban decision support platform which enabled the user to interact with a simulation for household relocation over the city. This simulation was based on a multi-agent urban model of under a spatial and possibilistic scenario.}\\
+{\vspace{0.2cm}}
+}
+\end{entrylist}
+
+\end{document}
+
